@@ -15,7 +15,7 @@ const port = normalizePort(process.env.API_PORT || DEFAULT_PORT);
 app.set('port', port);
 
 /**
- * Create HTTP server.
+ * Create HTTP server
  */
 
 const server = http.createServer(app);
